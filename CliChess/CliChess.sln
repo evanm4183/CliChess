@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliChess", "CliChess\CliChess.csproj", "{1D5FD3F2-C00F-47DE-95EB-D027C200C50D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D5FD3F2-C00F-47DE-95EB-D027C200C50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5FD3F2-C00F-47DE-95EB-D027C200C50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5FD3F2-C00F-47DE-95EB-D027C200C50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5FD3F2-C00F-47DE-95EB-D027C200C50D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96B88807-A7D5-4C65-AB0A-300669A8DCF4}
+	EndGlobalSection
+EndGlobal
