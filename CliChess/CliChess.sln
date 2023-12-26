@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliChess", "CliChess\CliChess.csproj", "{1D5FD3F2-C00F-47DE-95EB-D027C200C50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CliChess", "CliChess\CliChess.csproj", "{1D5FD3F2-C00F-47DE-95EB-D027C200C50D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{77D788CC-9EF8-4C21-854D-2BA57273659A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{735007BE-FCC6-4A30-9236-30843BC37DA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{25A3A634-800C-4DEA-93A0-30D9F67F3D5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameLogic", "GameLogic", "{FF14BD6D-83DF-4821-861B-5445B1EEA48E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D5FD3F2-C00F-47DE-95EB-D027C200C50D} = {25A3A634-800C-4DEA-93A0-30D9F67F3D5D}
+		{25A3A634-800C-4DEA-93A0-30D9F67F3D5D} = {77D788CC-9EF8-4C21-854D-2BA57273659A}
+		{FF14BD6D-83DF-4821-861B-5445B1EEA48E} = {77D788CC-9EF8-4C21-854D-2BA57273659A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96B88807-A7D5-4C65-AB0A-300669A8DCF4}
