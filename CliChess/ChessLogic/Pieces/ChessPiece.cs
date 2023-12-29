@@ -14,7 +14,7 @@ namespace ChessLogic.Pieces
 
         public virtual List<string> CalcUnobstructedMoves(string square)
         {
-            return null;
+            throw new NotImplementedException();
         }
     }
 }
