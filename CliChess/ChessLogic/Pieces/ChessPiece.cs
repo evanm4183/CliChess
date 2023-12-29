@@ -8,11 +8,11 @@ namespace ChessLogic.Pieces
 {
     public abstract class ChessPiece
     {
-        protected string Name { get; set; }
-        protected string Abbreviation { get; set; }
-        protected string Color { get; set; }
+        public string Name { get; set; }
+        public string Abbreviation { get; set; }
+        public string Color { get; set; }
 
-        protected virtual List<string> CalcUnobstructedMoves(string square)
+        public virtual List<string> CalcUnobstructedMoves(string square)
         {
             return null;
         }
