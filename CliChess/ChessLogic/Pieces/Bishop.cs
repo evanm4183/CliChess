@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChessLogic.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace ChessLogic.Pieces
 {
     public class Bishop : ChessPiece
     {
-        public Bishop(string color) 
+        public Bishop(PieceColor color) 
         {
             Name = "Bishop";
             Abbreviation = "Abbreviation";

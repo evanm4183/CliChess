@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ChessLogic.Pieces;
+using ChessLogic.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +12,12 @@ namespace ChessConsole
     {
         public static void Run()
         {
-            Console.WriteLine("This is the sandbox.");
+            var whitePawn = new Pawn(PieceColor.White);
+
+            if (whitePawn.Color == PieceColor.White)
+            {
+                Console.WriteLine("the color is white");
+            }
         }
     }
 }
